@@ -2,17 +2,22 @@ body {
 	background-color: #000000;
 }
 
-div {
-	background-color: #333;
-	margin: 0;
-	padding: 0;
+#swirl_container {
+	width = 100%;
+	position: relative;
 }
 
-#swirlContainer {
-	width: 100%
-	height: 25%;
+#swirl_yellow {
+	width = 100%;
 	position: relative;
-	background: yellow;
+}
+
+#site_branding {
+	width: 20%;
+	padding: 5% 0 0 5%;
+	color: white;
+	text-align: center;
+	position: absolute;
 }
 
 
