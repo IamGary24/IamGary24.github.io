@@ -1,5 +1,5 @@
 body {
-	background-color: #FCFCFF;
+	background-color: #000000;
 }
 
 div {
@@ -8,36 +8,12 @@ div {
 	padding: 0;
 }
 
-li {
-	float: right;
+#swirlContainer {
+	width: 100%
+	height: 25%;
+	position: relative;
+	background: yellow;
 }
 
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
 
-li a:hover{
-	background-color: #111
-}
-
-.navbar{
-	text-decoration: none;
-	list-style-type: none;
-	overflow: hidden;
-	background-color: #B0B0FF;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-.site-branding{
-	
-}
 
