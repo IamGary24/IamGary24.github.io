@@ -19,6 +19,17 @@ function drawYellow() {
 
 	}
 	
-drawYellow();
+//drawYellow();
 
-http://mojs.io/tutorials/shape/
+var curve = new mojs.Shape({
+  shape:        'curve',
+  points:       11,
+  radius:       100,
+  radiusY:      50,
+  radiusX: 		-10,
+  left:         '10%',
+  top: 			'10%',
+  fill:         'none',
+  stroke:       'deeppink',
+  isShowStart:   true,
+});
