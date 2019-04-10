@@ -2,14 +2,6 @@ body {
 	background-color: #ffffff;
 }
 
-#site_branding {
-	width: 20%;
-	padding: 5% 0 0 5%;
-	color: red;
-	text-align: center;
-	position: absolute;
-}
-
 #bordertop, #borderbottom, #borderleft, #borderright {
 	background: #B22222;
 	position: fixed;
@@ -38,6 +30,39 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 {
 	#bordertop, #borderbottom, #borderleft, #borderright { display: none; }
+}
+
+#navbar
+{
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	color: #B22222;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	text-decoration: none;
+}
+
+a {
+	display: block;
+	width: 50px;
+	padding: 20px 30px;
+	float: right;
+	color: #B22222;
+	text-decoration: none;
+}
+
+h3 {
+	float: left;
+	padding-left: 20px;
 }
 
 
